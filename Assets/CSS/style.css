@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;  
+    
+}
+.checkbox{
+    display: none;
+}
+
+header{
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    position: fixed;
+
+}
+
+.row{
+    width: 100% !important;
+}
+
+.logo_blanco{
+    width: 132px;
+    position: relative;
+    top: 50%;
+}
+
+
+.ul_he{
+    position: relative;
+    top: 70%;
+    display: flex;
+}
+
+.li_he{
+    list-style: none;
+    margin-right: 25px;
+    color: white;
+}
+
+.li_he2{
+    list-style: none;
+    color: white;
+    min-width: 105px;
+}
+
+.a1{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.a2{
+    color:#d9dadc;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.seccion_1{
+    min-width: 100%;
+    height: 94vh;
+    background-color: #FFCDD2;
+}
+p{
+    text-align: center;
+}
+
+.premium{
+    padding: 80px 35px;
+}
+
+.s1_d1{
+    padding-top: 35px;
+}
+
+.s1_d2{
+    padding-top: 30px;
+}
+
+.s1_h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.s1_h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.s1_d3{
+    margin-top: 20px;
+    padding-top: 45px;
+    height: 101px;
+    display: flex;
+    justify-content: center;
+}
+
+.boton_1{
+    background-color: #1DB954;
+    border-radius: 30px;
+    border-color: transparent;
+    color: white;
+    margin-top: 2px;
+    padding-right: 48px;
+    padding-left: 48px;
+    margin-right: 10px;
+    font-weight: 700;
+    height: 52px;
+    width: 239.08px;
+    letter-spacing: 1.5px;
+}
+
+.boton_1:hover{
+    height: 56px;
+    background-color: rgb(106, 218, 108);
+    width: 243.08px;
+    margin-right: 6px;
+    margin-top: 0px;
+}
+
+.boton_2{
+    background-color:transparent;
+    border-radius: 30px;
+    border-color: black;
+    color: black;
+    margin-top: 2px;
+    padding-right: 48px;
+    padding-left: 48px;
+    font-weight: 700;
+    height: 52px;
+    width: 268.45px;
+    letter-spacing: 1.5px;
+}
+
+.boton_2:hover{
+    height: 56px;
+    width: 272.45px;
+    margin-top: 0px;
+}
+
+.s1_d4{
+    margin-top: 40px;
+    padding: 0 10%;
+}
+
+.s1_p1{
+    font-size: 12px;
+}
+
+.s1_a1{
+    font-size: 12px;
+    color: black;
+}
+
+.seccion_2{
+    min-height: 395px;
+    background: url(https://campaigns.scdn.co/images/hero-burst-mobile.svg) no-repeat center/878px 676px,linear-gradient(#F037A5 -60%,#FAE62D 140%);
+}
+
+.free{
+    padding-top: 70px;
+    
+}
+.s2_h1{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+.s2_d2{
+    margin-top: 30px;
+}
+.s2_h2{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+.s2_d3{
+    margin-top: 50px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.boton_3{
+    background-color: #1DB954;
+    border-radius: 30px;
+    border-color: transparent;
+    color: white;
+    margin-top: 2px;
+    padding-right: 48px;
+    padding-left: 48px;
+    font-weight: 700;
+    height: 48px;
+    width: 276.86px;
+    letter-spacing: 1.5px;
+}
+
+.boton_3:hover{
+    height: 52px;
+    background-color: rgb(106, 218, 108);
+    width: 280.86px;
+    margin-right: 6px;
+    margin-top: 0px;
+}
+
+.seccion_3{
+    background-color: black;
+    height: 550px;
+    padding: 80px;  
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr   
+}
+
+.col_1{
+    padding:0 15px;
+    min-width: 153px;
+}
+
+.encabezado{
+    list-style: none;
+    margin-right: 25px;
+    color: #919496;
+    margin: 20px 0;
+    line-height: 1.4;
+    font-weight: 900;
+    font-size: 12px;
+}
+.li_pp{
+    list-style: none;
+    margin-right: 25px;
+    margin: 20px 0;
+}
+
+.a_pp{
+    text-decoration: none;
+    color: white;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+
+.logo_pp{
+    width: 132px;
+}
+
+.ul_redes{
+    margin: 20px 0 0 116px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.redes{
+    list-style: none;
+    margin-right: 25px;
+}
+
+.rs{
+    color:white;
+    background-color: #222326;
+    width: 54px;
+    height: 54px;
+    border-radius: 30px;
+    font-size: 24px;
+    border-color:transparent;
+}
+
+.contenedor_2{
+    display: grid;
+    grid-template-columns: 5fr 1fr
+}
+
+.col_2{
+    padding:0 15px;
+    min-width: 570px;
+}
+
+.col_3{
+    padding:0 15px;
+    min-width: 55px;
+}
+
+.ul_p{
+    display: flex;
+    padding-top: 100px;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.li_p{
+    list-style: none;
+    margin-right: 25px;
+    font-size: 12px;
+    color: #919496;
+}
+
+.pd{
+    padding-left: 21px;
+}
+
+.a_p{
+    text-decoration: none;
+    font-size: 12px;
+    color: #919496;
+    
+}
+
+.op{
+    min-width: 112px !important;
+}
+
+.ul_pb{
+    padding-top: 65px;
+    
+}
+
+.bandera{
+    height: 18px;
+}
+
+
+.li_pb{
+    list-style: none;
+    font-size: 12px;
+    color: #919496;
+    margin-top: 15px;
+    min-width: 100px;
+
+}
+
+.hv:hover{
+    color: #1DB954 ;
+}
+
+
+.menup{
+    position: absolute;
+    top: 13px;
+    right: 10vh;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    transition: left 0.7s;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.rigth-panel{
+    width: 447px;
+    height: 100vh;
+    background: black;
+    position: absolute;
+    top: 0;
+    right:0;
+    display: flex;
+    justify-content: center;
+    transition: left 0.4s;
+    z-index: 0;
+    display: none;
+}
+
+.checkbox:checked ~ .rigth-panel{
+    display: initial;
+}
+
+
+@media screen and (max-width: 992px){
+  
+    header{
+        background-color: black;
+        height: 54px;
+    }
+
+    .logo_blanco{
+        width: 89px;
+        position: relative;
+        top: 50%;
+    }
+
+    .ul_he{
+        visibility: hidden;
+    }
+    
+    .s1_h1{
+        font-size: 70px;
+    }
+
+    .seccion_3{
+        padding: 50px 60px 20px 60px;
+        height: 100vh;
+    }
+
+    .logo_pp{
+        width: 89px;
+    }
+
+    .contenedor{
+        display: grid;
+        grid-template-columns: 240px 240px 240px;
+        grid-template-rows: auto auto auto;
+        row-gap: 50px;
+        justify-content: center;
+        }
+
+    .col_1{
+        grid-row: 2;
+    }
+
+    .logo{
+        grid-row: 1 ;
+    }
+
+    .credes{
+        grid-row: 3;
+        padding: 0%;
+    }
+
+    .ul_redes{
+        margin: 0;
+    }
+
+    .rs{
+        width: 44px;
+        height: 44px;
+    }
+
+
+}

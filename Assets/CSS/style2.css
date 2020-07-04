@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+}
+
+
+header{
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    position: fixed;
+
+}
+.fila{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.logo{
+    padding-left: 100px;
+}
+
+.logo_blanco{
+    width: 132px;
+    position: relative;
+    top: 50%;
+}
+
+
+.ul_he{
+    position: relative;
+    top: 70%;
+    display: flex;
+}
+
+.li_he{
+    list-style: none;
+    margin-right: 25px;
+    color: white;
+}
+
+.li_he2{
+    list-style: none;
+    color: white;
+    min-width: 105px;
+}
+
+.a1{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.a2{
+    color:#d9dadc;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.seccion_1{
+    min-width: 100%;
+    min-height: 696px;
+    background-color: #FFCDD2;
+}
+p{
+    text-align: center;
+}
+
+.premium{
+    padding: 80px 35px 40px 35px;
+    display: block;
+    justify-content: center;
+}
+
+.s1_d1{
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.s1_d2{
+    padding-top: 50px;
+}
+
+.s1_d2_1{
+    padding-top: 30px;
+    max-width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s1_h1{
+    text-align: center;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.s1_h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.s1_d3{
+    margin-top: 20px;
+    padding-top: 45px;
+    height: 97px;
+    display: flex;
+    justify-content: center;
+}
+
+.boton_1{
+    background-color: #1DB954;
+    border-radius: 30px;
+    border-color: transparent;
+    color: white;
+    margin-top: 2px;
+    padding-right: 48px;
+    padding-left: 48px;
+    margin-right: 10px;
+    font-weight: 700;
+    height: 52px;
+    width: 299.03px;
+    letter-spacing: 1.5px;
+}
+
+.boton_1:hover{
+    height: 56px;
+    background-color: rgb(106, 218, 108);
+    width: 303.03px;
+    margin-right: 6px;
+    margin-top: 0px;
+}
+
+.boton_2{
+    background-color:transparent;
+    border-radius: 30px;
+    border-color: black;
+    color: black;
+    margin-top: 2px;
+    padding-right: 48px;
+    padding-left: 48px;
+    font-weight: 700;
+    height: 52px;
+    width: 203.64px;
+    letter-spacing: 1.5px;
+}
+
+.boton_2:hover{
+    height: 56px;
+    width: 207.64px;
+    margin-top: 0px;
+}
+
+.s1_d4{
+    margin-top: 40px;
+    max-width: 636.28px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.s1_p1{
+    font-size: 12px;
+}
+
+.s1_a1{
+    font-size: 12px;
+    color: black;
+}
+
+.seccion_2{
+    height: 96vh;
+    background: white;
+}
+
+.free{
+    padding-top: 85px;
+    
+}
+.s2_h1{
+    font-size: 45px;
+    text-align: center;
+    color:black;
+}
+
+.beneficios{
+    margin-top: 75px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.parejab{
+    display: flex;
+}
+
+.div_beneficio{
+    margin: 0 71.5px 40px;
+}
+
+.img_beneficio{
+    width: 142px;
+}
+
+.h2_beneficios{
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 19px;
+    text-align: center;
+    color: #222326;
+    padding: 0 10px;
+    max-width: 293px;
+}
+
+.p_beneficios{
+    font-size: 14px;
+    text-align: center;
+    color: #222326;
+}
+
+.cancelacion{
+    height: 400px;
+    background-color: rgb(248, 248, 248);
+}
+
+.div_cancelacion{
+    padding: 55px 15px;
+}
+
+.div2_cancelacion{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.img_cancelacion{
+    height: 30px;
+}
+
+.h1_cancelacion{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+.p_cancelacion{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.plan{
+    background-color: white;
+    height: 985px;
+}
+
+.div_plan{
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+
+.h1_plan{
+    font-size: 38px;
+    letter-spacing: -1.6px;
+    text-align: center;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.p_plan{
+    margin-top: 10px;
+}
+
+.planes{
+    display: flex;
+    justify-content:center ;
+}
+
+.card_deck{
+    display: flex;
+    margin-bottom: 50px;
+    max-width: 1140px;
+}
+
+.card{
+    margin: 0 16px 0 0;
+    max-width: 400px;
+    width: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.div_card{
+    padding: 16px 16px 16px 16px;
+    max-width: 400px;
+    width: auto;
+    
+}
+
+.p_card{
+    text-align: left;
+    background-color: #2E77D0;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 115px;
+    color: white;
+    font-weight: 700;
+    padding: 4px 8px;
+    
+}
+
+.card-titulo{
+    padding: 16px 16px 16px 16px;
+    max-width: 400px;
+}
+
+.card-cuerpo{
+    padding: 16px 16px 16px 16px;
+    max-width: 400px;
+    height: 284px;
+}
+
+.card-title{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.card-text{
+    font-size: 16px;
+    text-align: left;
+    margin: 4px 0;
+}
+
+.caracteristicas{
+    display: flex;
+}
+
+.img_check_card{
+    font-size: 24px;
+    padding: 0 10px 0 0;
+}
+
+.card-boton{
+    padding: 0 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.comenzar{
+    background-color: #1DB954;
+    border-radius: 30px;
+    border-color: transparent;
+    color: white;
+    margin-top: 2px;
+    padding-right: 48px;
+    padding-left: 48px;
+    margin-right: 10px;
+    font-weight: 700;
+    height: 48px;
+    width: 237px;
+    letter-spacing: 1.5px;
+}
+
+.comenzar:hover{
+    height: 52px;
+    background-color: rgb(106, 218, 108);
+    width: 241px;
+    height: 52px;
+    margin-right: 6px;
+    margin-top: 0px;
+}
+
+.card-pie{
+    height: 166px;
+    padding: 20px 16px 16px;    
+}
+
+.card-text-pie{
+    color: #919496;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.a-card-pie{
+    color: #919496;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.seccion_3{
+    background-color: black;
+    height: 112px;
+    padding: 20px 0 20px;  
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_2{
+    width: 1170px;
+
+    display: grid;
+    grid-template-columns: 5fr 2fr
+}
+
+.col_2{
+    padding:0 15px;
+}
+
+.col_3{
+    padding:0 15px;
+}
+
+.col_col{
+    padding-right: 0px;
+}
+
+.ul_p{
+    margin-top: 45px;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.li_p{
+    list-style: none;
+    margin-right: 25px;
+    font-size: 12px;
+    color: #919496;
+}
+
+.a_p{   
+    text-decoration: none;
+    font-size: 12px;
+    color: #919496;
+}
+
+
+
+.bandera{
+    height: 18px;
+}
+
+
+.li_pb{
+    list-style: none;
+    font-size: 12px;
+    color: #919496;
+    min-width: 100px;
+    padding-top: 15px;
+    padding-left: 16px;
+    text-align: right;
+
+}
+
+.pd{
+    padding-left: 37px;
+}
+
+.hv:hover{
+    color: #1DB954 ;
+}
+
+
+@media screen and (max-width: 1200px){
+
+    .seccion_2{
+        height: 608px;
+    }
+
+    .parejab{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .beneficio{
+        display: flex;
+    }
+
+    .img_beneficio{
+        width: 92px;
+    }
+
+    .div_beneficio{
+        height: 142px;
+        margin: 0 20px 0 0;
+    }
+
+    .h2_beneficios{
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-size: 19px;
+        text-align: left;
+        color: #222326;
+        padding: 0 0;
+        max-width: 293px;
+    }
+    
+    .p_beneficios{
+        font-size: 14px;
+        text-align: left;
+        color: #222326;
+    }
+
+    .card{
+        margin: 0 0 15px 0;
+    }
+
+    .card_deck{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-cuerpo{
+        height: auto;
+    }
+
+    .card-pie{
+        height: auto;
+        
+    }
+    
+}
+
+
+
+@media screen and (max-width: 992px){
+  
+    header{
+        background-color: black;
+        height: 54px;
+    }
+
+    .logo_blanco{
+        width: 89px;
+        position: relative;
+        top: 50%;
+    }
+
+    .ul_he{
+        visibility: hidden;
+    }
+
+    .s1_h1{
+        font-size: 50px;
+    }
+
+    .cancelacion{
+        height: auto;
+    }
+
+    .h1_cancelacion{
+        font-size: 32px;
+    }
+
+    .p_cancelacion{
+        font-size: 20px;
+        padding: 0 20px;
+    }
+
+    .div_cancelacion{
+        padding: 20px 20px 40px 20px;
+    }
+
+    .tex_beneficio{
+        width: 245px;
+    }
+
+    
+}
